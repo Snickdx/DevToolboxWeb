@@ -1,0 +1,70 @@
+{
+    "theme_color": "#6366f1",
+    "background_color": "#6366f1",
+    "icons": [
+      {
+        "purpose": "maskable",
+        "sizes": "128x128",
+        "src": "devtoolbox_logo.png",
+        "type": "image/png"
+      },
+      {
+        "purpose": "maskable",
+        "sizes": "512x512",
+        "src": "icon512_maskable.png",
+        "type": "image/png"
+      },
+      {
+        "purpose": "any",
+        "sizes": "512x512",
+        "src": "icon512_rounded.png",
+        "type": "image/png"
+      }
+    ],
+    "protocol_handlers": [
+      {
+        "protocol": "web+json",
+        "url": "/tools/json-validator/%s"
+      }
+    ],
+    "screenshots": [
+      {
+       "src": "screenshot1.png",
+        "sizes": "2560x1280",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Home"
+      },
+      {
+        "src": "screenshot2.png",
+         "sizes": "2560x1280",
+         "type": "image/png",
+         "form_factor": "wide",
+         "label": "Diff Cheker"
+       },
+       {
+        "src": "screenshot3.png",
+         "sizes": "2560x1280",
+         "type": "image/png",
+         "form_factor": "wide",
+         "label": "Markdown Editor"
+       },
+       {
+        "src": "screenshot4.png",
+         "sizes": "2560x1280",
+         "type": "image/png",
+         "form_factor": "wide",
+         "label": "JSON Validator"
+       }
+    ],
+    "display_override": ["window-controls-overlay"],
+    "orientation": "any",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en-US",
+    "name": "Developer Tool Box",
+    "short_name": "Dev Toolbox",
+    "start_url": "/",
+    "scope": "/",
+    "description": "A collection of useful, community built developer tools. Check out https://github.com/YourAverageTechBro/DevToolboxWeb"
+  }

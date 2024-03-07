@@ -18,6 +18,12 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+          <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover'/>
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="theme-color" content="#6366f1" />
+          <link rel="manifest" href="/manifest.json" />
+        </head>
         <body className={inter.className}>
           <div className={"w-full h-screen"}>{children}</div>
         </body>

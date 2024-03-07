@@ -6,4 +6,11 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  scope: '/',
+  sw:'service-worker.js',
+  register: true
+})
+
+module.exports = withPWA(nextConfig);
